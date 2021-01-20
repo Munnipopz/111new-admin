@@ -73,10 +73,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+ഹായ് {}, എന്റെ പേര് {}! 
+ഞാൻ ഒരു ആനിമേഷൻ തീം ഗ്രൂപ്പ് മാനേജുമെന്റ് ബോട്ട് ആണ്.
+വെബ്‌സിനായി വെബ്‌സ് നിർമ്മിക്കുന്നത്, ആനിമേഷനും സമാന തീം ഗ്രൂപ്പുകളും കൈകാര്യം ചെയ്യുന്നതിൽ ഞാൻ പ്രത്യേകം ശ്രദ്ധിക്കുന്നു.
+/help സഹാത്തോടെ  ലഭ്യമായ കമാൻഡുകളുടെ ലിസ്റ്റ് നിങ്ങൾക്ക് കണ്ടെത്താൻ കഴിയും..
 """
 
 HELP_STRINGS = """
@@ -235,19 +235,19 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates Channel",
-                                url="https://t.me/OnePunchUpdates",
+                                url="https://t.me/Munnipopz",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                url="https://t.me/Munnipopz",
                             )
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                url="https://t.me/Munnipopz",
                             )
                         ],
                     ]
