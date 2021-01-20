@@ -6,8 +6,8 @@ import re
 import subprocess
 import time
 from datetime import datetime
-from Elizabeth.events import register
-from Elizabeth import LOGGER, client
+from SaitamaRobot.events import register
+from SaitamaRobot import LOGGER, client
 from telethon import types
 from telethon.tl import functions
 
